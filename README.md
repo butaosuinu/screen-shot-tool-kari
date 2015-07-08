@@ -12,9 +12,12 @@
 - G○azoのようなドラッグで撮影範囲指定  
 - 枠で範囲指定  
 - アクティブウィンドウで範囲指定  
-## Requirement
+
+## Requirement  
+
 フロント部分で[materialize](http://materializecss.com/)を使用しています。  
-## Usage
+
+## Usage  
 
 `git clone`  
   
