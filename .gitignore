@@ -1,1 +1,4 @@
-/task/node_modules/*
+/task/*
+/node_modules/*
+.sass-cache
+*.css.map

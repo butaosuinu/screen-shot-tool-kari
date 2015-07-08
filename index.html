@@ -3,14 +3,21 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
 	<title>すくしょとるやつ（仮）</title>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.1/css/materialize.min.css' />
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-	<h1>すくしょとるやつ（仮）</h1>
+	<nav>
+		<h1 class="mainTitle">すくしょとるやつ（仮）</h1>
+	</nav>
 	<ul class="mainMenu clearfix">
-		<li>アクティブウィンドウ</li>
-		<li>ドラッグして撮るやつ</li>
-		<li>枠で撮るやつ</li>
+		<li id="fullScreen" class="waves-effect waves-light btn">全画面</li>
+		<li class="waves-effect waves-light btn">アクティブウィンドウ</li>
+		<li class="waves-effect waves-light btn">ドラッグして撮るやつ</li>
+		<li class="waves-effect waves-light btn">枠で撮るやつ</li>
 	</ul>
+	<video id="video" style="display:none"></video>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.1/js/materialize.min.js'></script>
 </body>
 </html>

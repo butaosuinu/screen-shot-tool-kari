@@ -1,11 +1,37 @@
-.mainMenu li{
-	display: block;
-	float: left;
-	list-style: none;
-	margin: 0 10px;
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Meiryo,"繝｡繧､繝ｪ繧ｪ","Hiragino Kaku Gothic ProN",sans-serif;
+  background: #DDD;
+  overflow: hidden;
 }
-.clearfix:after{
-	display: block;
-	content: "";
-	clear: both;
+
+.mainTitle {
+  font-size: 24px;
+  margin: 0 15px 20px 15px;
+  padding-top: 10px;
+  line-height: 1.5;
+}
+
+.mainMenu {
+  position: relative;
+  left: 50%;
+  float: left;
+}
+.mainMenu li {
+  position: relative;
+  left: -50%;
+  float: left;
+  list-style: none;
+  margin-left: 10px;
+}
+.mainMenu li:first-child {
+  margin-left: 0;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
 }

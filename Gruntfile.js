@@ -7,7 +7,7 @@ module.exports = function(grunt) {
 		connect:{
 			server:{
 				options:{
-					port: 3000,
+					port: 7000,
 					livereload: true
 				}
 			}
@@ -19,7 +19,7 @@ module.exports = function(grunt) {
 					style:'expanded'
 				},
 				files:{
-					'../css/main.css': 'sass/main.scss'
+					'css/main.css': 'sass/main.scss'
 				}
 			}
 		},
@@ -29,7 +29,7 @@ module.exports = function(grunt) {
 				browsers: ['last 2 version', 'ie 9']
 			},
 			dist:{
-				src: ['../css/main.css']
+				src: ['css/main.css']
 			}
 		},
 

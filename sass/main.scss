@@ -1,0 +1,33 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Meiryo,"メイリオ","Hiragino Kaku Gothic ProN",sans-serif;
+	background: #DDD;
+	overflow: hidden;
+}
+.mainTitle{
+	font-size: 24px;
+	margin: 0 15px 20px 15px;
+	padding-top: 10px;
+	line-height: 1.5;
+}
+.mainMenu{
+	position: relative;
+	left: 50%;
+	float: left;
+	li{
+		position: relative;
+		left: -50%;
+		float: left;
+		list-style: none;
+		margin-left: 10px;
+		&:first-child{
+			margin-left: 0;
+		}
+	}
+}
+.clearfix:after{
+	display: block;
+	content: "";
+	clear: both;
+}
